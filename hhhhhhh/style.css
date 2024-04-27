@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+li {
+    list-style: none;
+    margin-left: 70px;
+}
+
+ul {
+    display: flex;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cover {
+    background-image: url(main.png);
+    height: 900px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 25px;
+    margin-top: 140px;
+    font-family: 'Playfair Display';
+}
+
+p {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Playfair Display';
+}
+
+button {
+    font-size: 0.7cm;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: 'Playfair Display';
+    background-color: white
+}
+
+.button-1 { 
+   font-family: 'Roboto', monospace;
+   border: none;
+   color: rgb(231, 231, 231);
+   font-size: 24px;
+   margin: 2px 1px;
+   padding: 10px 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+.button-new {
+    font-family: 'Roboto', monospace;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border: 3px solid black;
+}
+.button-new:hover {
+    font-family: 'Roboto', monospace;
+    background-color: black;
+    color: rgb(231, 231, 231);
+}
+ 
+a {
+    color: black;
+    font-size: 25px;
+    text-decoration: dashed;
+    font-family: 'Playfair Display';
+}
+
+.description {
+    column-count: 2;
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+#basics {
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-right: 55px;
+    padding-bottom: 55px;
+}
+
+#look {
+    column-count: 3;
+    
+}
+
+#looks {
+    column-count: 3;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 37px;
+    margin-top: 0.5px;
+    font-family: 'Playfair Display';
+    margin-bottom: 50px;
+}
+
+#free-guide {
+    margin-top: 100px;
+    background-image: url(./form_bg.png);
+    height: 629px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+
+
+}
+
+.free-guide-form {
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    margin-bottom: 25px;
+    margin-top: 140px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bud {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 170px;
+    padding-bottom: 10px;
+    color: rgb(218, 218, 218);
+    margin-top: 20px;
+    
+}
+
+.bud-1 {
+    column-count: 2;
+    
+}
+
+.bud-2 {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 170px;
+    padding-bottom: 10px;
+    color: rgb(218, 218, 218);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.order {
+    margin-top: 50px;
+}
+
+#flowers-1 {
+    column-count: 2;
+    margin-top: 40px;
+}
+
+
+
+.information {
+    margin-top: 100px;
+    
+}
+
+.Usefulness {
+    font-family: 'Playfair Display';
+    font-weight: initial;
+}
+
+#Connection {
+    margin-top: 100px;
+    background-image: url(./contact_img.png);
+    height: 629px;
+    display: flex;
+    justify-items: center;
+    
+}
+
+.Communication-method {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    margin-left: 650px;
+}
+
+#h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    
+}
+
+#basement {
+    width: 130px;
+    margin: auto;
+}
+
+#markup {
+    width: 180px;
+    margin: auto;
+}
+
+#markup-1 {
+    width: 80px;
+    margin: auto;
+}
